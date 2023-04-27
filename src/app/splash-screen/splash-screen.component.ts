@@ -1,11 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { gsap } from 'gsap';
 
 @Component({
   selector: 'metden-tech-splash-screen',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './splash-screen.component.html',
   styleUrls: ['./splash-screen.component.scss'],
 })

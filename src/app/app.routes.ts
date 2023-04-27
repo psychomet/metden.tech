@@ -4,6 +4,6 @@ export const appRoutes: Route[] = [
   {
     path: '',
     loadComponent: () =>
-      import('./components/home/home.component').then((c) => c.HomeComponent),
+      import('./home/home.component').then((c) => c.HomeComponent),
   },
 ];

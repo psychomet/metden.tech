@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { SplashScreenComponent } from './components/splash-screen/splash-screen.component';
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { NgIf } from '@angular/common';
 
 @Component({
